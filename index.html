@@ -10,9 +10,8 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="static/style.css" rel="stylesheet">
-  <link href="static/membership.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="static/Logo.png">
-  <title>ARSD Library | About</title>
+  <title>ARSD Library | Home</title>
 </head>
 
 <body>
@@ -24,14 +23,14 @@
         <div class="logo-text">
           <p id="lib-logo">आत्मा राम सनातन धर्म कॉलेज पुस्तकालय <br>दिल्ली विश्वविद्यालय
             <br> Atma Ram Sanatan Dharma College Library<br> University of Delhi <br></p>
-        </div>
+          </div>
       </div>
-      <div class="logo-right">
-        <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
+        <div class="logo-right">
+          <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
         <img src="https://library.ramanujancollege.ac.in/static/images/du_100.png" alt="logo" id="logo2">
-      </div>
+        </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(102, 30, 30);">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(102, 30, 30)">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,13 +80,96 @@
       </div>
     </nav>
   </header>
-  <!--Content-->
-  <section>
-    <div class="containerone member-content">
-      <h1>Membership</h1>
+  <main>
+    <!--Carousel-->
+    <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="static/IMG_1.JPG" class=" img-fluid d-block w-100" alt="Image1">
+        </div>
+        <div class="carousel-item">
+          <img src="static/IMG_2.JPG" class="img-fluid d-block w-100" alt="Image2">
+        </div>
+        <div class="carousel-item">
+          <img src="static/IMG_3.JPG" class="img-fluid d-block w-100" alt="Image3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-  </section>
+    <!--Content-->
+    <div class="content">
+      <div class="containerone" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
+        <h1>ARSD College Library | Home</h1>
+        <br>
+        <div class="icons">
+          <div class="lib-icons"><a href="about.html"><lord-icon src="https://cdn.lordicon.com/cqmhvubj.json"
+                trigger="hover"
+                colors="outline:#121331,primary:#794628,tertiary:#794628,quaternary:#ffffff,quinary:#e88c30"
+                style="width:150px;height:150px">
+              </lord-icon></a>
+            <div class="icon-text">
+              <p>About Us</p>
+            </div>
+          </div>
+          <div class="lib-icons"><a href="Journals.html"><lord-icon src="https://cdn.lordicon.com/ttioogfl.json"
+                trigger="morph"
+                colors="primary:#121331,secondary:#a39cf4,tertiary:#e88c30,quaternary:#ffffff,quinary:#ffffff"
+                style="width:150px;height:150px"></lord-icon></a>
+            <div class="icon-text">
+              <p>Journals</p>
+            </div>
+          </div>
+          <div class="lib-icons"><a href="lib-staff.html"><lord-icon src="https://cdn.lordicon.com/dqxvvqzi.json"
+                trigger="hover" colors="outline:#121331,primary:#e88c30,secondary:#66a1ee"
+                style="width:150px;height:150px">
+              </lord-icon></a>
+            <div class="icon-text">
+              <p>Library Staff</p>
+            </div>
+          </div>
+          <div class="lib-icons"><a href="rules.html"><lord-icon src="https://cdn.lordicon.com/ccwgfhfg.json"
+                trigger="hover" colors="outline:#000000,primary:#c71f16,secondary:#1b1091,tertiary:#f2e2d9"
+                style="width:150px;height:150px"></lord-icon></a>
+            <div class="icon-text">
+              <p>Library Rules</p>
+            </div>
+          </div>
+          <div class="lib-icons"><a href="services.html"><lord-icon src="https://cdn.lordicon.com/pqxdilfs.json"
+                trigger="hover" colors="outline:#131432,primary:#ffffff,secondary:#000000,tertiary:#ffffff"
+                style="width:150px;height:150px">
+              </lord-icon></a>
+            <div class="icon-text">
+              <p>Services</p>
+            </div>
+          </div>
+          <div class="lib-icons"><a href="contactus.html"><lord-icon src="https://cdn.lordicon.com/kjkiqtxg.json"
+                trigger="hover" colors="outline:#121331,primary:#f4c89c,secondary:#7166ee,tertiary:#ee6d66"
+                style="width:150px;height:150px">
+              </lord-icon></a>
+            <div class="icon-text">
+              <p>Contact Us</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <br><br>
+  <div class="text-content">
+    <div class="containertwo" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
+      <h1>News and Updates</h1>
+      <br>
+      1. News one <br>
+      2. News two <br>
+      3. News three <br>
+    </div>
+  </div>
   <!--Footer-->
 
   <footer class="text-gray-600 body-font">
@@ -210,10 +292,10 @@
     </div>
   </footer>
 </body>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 <script>
   AOS.init();
 </script>
