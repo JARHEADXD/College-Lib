@@ -20,18 +20,24 @@
   <header>
     <div class="top-bar">
       <div class="logo-content">
-        <a class="navbar-brand" href="index.html"><img src="static/Logo.png" alt="Logo" id="logo"></a>
+        <div class="college-logo">
+          <a class="navbar-brand" href="index.html"><img src="static/Logo.png" alt="Logo" id="logo"></a>
+        </div>
         <div class="logo-text">
           <p id="lib-logo">आत्मा राम सनातन धर्म कॉलेज पुस्तकालय <br>दिल्ली विश्वविद्यालय
-            <br> Atma Ram Sanatan Dharma College Library<br> University of Delhi <br></p>
-          </div>
-      </div>
-        <div class="logo-right">
-          <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
-        <img src="https://library.ramanujancollege.ac.in/static/images/du_100.png" alt="logo" id="logo2">
+            <br> Atma Ram Sanatan Dharma College Library<br> University of Delhi <br>
+          </p>
         </div>
+      </div>
+      <div class="logo-right">
+        <div class="left-img">
+          <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
+          <img src="static/Azkam.png" alt="AzadiLogo" id="logo2">
+        </div>
+        <img src="https://library.ramanujancollege.ac.in/static/images/du_100.png" alt="logo" id="logo2">
+      </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(102, 30, 30);">
+    <nav class="navbar navbar-expand-xl navbar-dark" style="background-color:rgb(102, 30, 30)">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,19 +54,19 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="about.html">Library Profile</a></li>
-                <li><a class="dropdown-item" href="lib-staff.html">Library Staff</a></li>
+                <li><a class="dropdown-item" href="rules.html">Library Rules</a></li>
                 <li><a class="dropdown-item" href="membership.html">Membership</a></li>
-                <li><a class="dropdown-item" href="#">Working Hours</a></li>
+                <li><a class="dropdown-item" href="lib-staff.html">Library Staff</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link active" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Journals.html">Journals</a>
+              <a class="nav-link active" href="Journals.html">Journals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="lib_sections.html">Sections</a>
+              <a class="nav-link active" href="lib_sections.html">Sections</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,7 +80,14 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="feedback.html">Feedback</a>
+              <a class="nav-link active" href="http://10.115.6.139:8080/jspui" target="_blank">Institutional
+                Repository</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="http://10.115.1.16/webopac" target="_blank">Webopac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="feedback.html">Feedback</a>
             </li>
           </ul>
         </div>
@@ -88,10 +101,10 @@
         </div>
         <br>
         <div class="containerone" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
-            <h1>Digital Library</h1>
+            <center><h1 style="font-size: 30px;"><b>Digital Library</b></h1></center>
             <br>
             <p>
-            <div class="containertwo">
+            <div class="containertwo" style="background-color: rgb(66, 21, 21);" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
                 <b>E-PG Pathshala:</b><br><a href="https://epathshala.nic.in/">https://epathshala.nic.in/</a>
                 <br><br>
                 <b>E-shodhsindu:</b><br><a href="https://ess.inflibnet.ac.in/">https://ess.inflibnet.ac.in/</a>
@@ -113,7 +126,7 @@
             </div>
             </p>
             <br><br>
-            <div class="containertwo">
+            <div class="containertwo" style="background-color: rgb(66, 21, 21) ;" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
                 <br><b>Parliament Digital Library:</b><br><a
                     href="https://eparlib.nic.in/">https://eparlib.nic.in/</a><br>
                 <br><b>National Science Digital Library: </b><br><a
@@ -137,8 +150,10 @@
                 <br><b>Swayamprabha: </b><br><a href="https://swayamprabha.gov.in/">https://swayamprabha.gov.in/</a><br>
             </div>
             <br><br>
-            <div class="containertwo">
-                <b>Module Open Access</b><br><br>
+            <center><b style="font-size: 30px;">Open Access</b></center>
+            <br>
+            <div class="containertwo" style="background-color: rgb(66, 21, 21);" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
+                <br><br>
                 <b>E-Journals</b><br><br>
                 <b>i. Directory of Open Access Journals:</b><br><a
                     href="https://doaj.org/">https://doaj.org/</a><br><br>
@@ -154,7 +169,7 @@
                     href="https://www.nature.com/natindia/collections">https://www.nature.com/natindia/collections</a><br><br>
             </div>
             <br>
-            <div class="containertwo">
+            <div class="containertwo" style="background-color: rgb(66, 21, 21);" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
                 <b>E-Newspaper</b><br><br>
                 <b>i. Times of India-</b><br><a href="https://timesofindia.indiatimes.com/?from=mdr">
                     https://timesofindia.indiatimes.com/?from=mdr</a><br><br>
@@ -164,7 +179,7 @@
                     href="https://epaper.navbharattimes.com/delhi/2023-02-01/13/page-1.html">https://epaper.navbharattimes.com/delhi/2023-02-01/13/page-1.html</a><br><br>
             </div>
             <br>
-            <div class="containertwo">
+            <div class="containertwo" style="background-color: rgb(66, 21, 21);" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
                 <b>Other Useful Resources</b><br><br>
                 <b>i. University Grant Commission-</b> <br><a href=" https://www.ugc.ac.in/ "> https://www.ugc.ac.in/
                 </a><br><br>
@@ -212,7 +227,7 @@
           <a href="https://www.arsdcollege.ac.in"
             class="flex title-font font-medium items-center md:rjustify-start justify-center text-gray-900"
             target="_blank">
-            <img src="static/Logo.png" alt="Logo">
+            <img src="static/Logo.png" id ="foot-logo" alt="Logo">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
             <span class="ml-3 text-xl" style="font-size:25px;color:antiquewhite ">Atma Ram Sanatan Dharma College</span>
@@ -277,7 +292,7 @@
             <h2 class="title-font font-medium text-gray-900 text-xl mb-3" style="color:antiquewhite">Find Us</h2>
             <nav class="list-none mb-10">
               <li>
-              <a href="https://goo.gl/maps/BcSdETpeZhmNYifU7"><lord-icon src="https://cdn.lordicon.com/fihkmkwt.json" trigger="hover"
+              <a href="https://goo.gl/maps/BcSdETpeZhmNYifU7" target="_blank"><lord-icon src="https://cdn.lordicon.com/fihkmkwt.json" trigger="hover"
                 colors="primary:#000000,secondary:#c71f16" id="find-us" style="width:150px;height:150px"></lord-icon></a>
             </li>
               </nav>

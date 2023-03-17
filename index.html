@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <meta name="description" content="ARSD College Library">
+  <meta name="keywords"
+    content="Library,ARSD Library, arsd library, ARSD College Library, arsd college library, Parth Raheja, Aman Kumar, Atma Ram Sanatan Dharma College, University of Delhi Library">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -19,18 +22,24 @@
   <header>
     <div class="top-bar">
       <div class="logo-content">
-        <a class="navbar-brand" href="index.html"><img src="static/Logo.png" alt="Logo" id="logo"></a>
+        <div class="college-logo">
+          <a class="navbar-brand" href="index.html"><img src="static/Logo.png" alt="Logo" id="logo"></a>
+        </div>
         <div class="logo-text">
           <p id="lib-logo">आत्मा राम सनातन धर्म कॉलेज पुस्तकालय <br>दिल्ली विश्वविद्यालय
-            <br> Atma Ram Sanatan Dharma College Library<br> University of Delhi <br></p>
-          </div>
-      </div>
-        <div class="logo-right">
-          <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
-        <img src="https://library.ramanujancollege.ac.in/static/images/du_100.png" alt="logo" id="logo2">
+            <br> Atma Ram Sanatan Dharma College Library<br> University of Delhi <br>
+          </p>
         </div>
+      </div>
+      <div class="logo-right">
+        <div class="left-img">
+          <img src="static/G20 Logo.png" alt="G20Logo" id="g20logo">
+          <img src="static/Azkam.png" alt="AzadiLogo" id="logo2">
+        </div>
+        <img src="https://library.ramanujancollege.ac.in/static/images/du_100.png" alt="logo" id="logo2">
+      </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(102, 30, 30)">
+    <nav class="navbar navbar-expand-xl navbar-dark" style="background-color:rgb(102, 30, 30)">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,13 +62,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link active" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Journals.html">Journals</a>
+              <a class="nav-link active" href="Journals.html">Journals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="lib_sections.html">Sections</a>
+              <a class="nav-link active" href="lib_sections.html">Sections</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -73,7 +82,14 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="feedback.html">Feedback</a>
+              <a class="nav-link active" href="http://10.115.6.139:8080/jspui" target="_blank">Institutional
+                Repository</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="http://10.115.1.16/webopac" target="_blank">Webopac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="feedback.html">Feedback</a>
             </li>
           </ul>
         </div>
@@ -106,7 +122,7 @@
     <!--Content-->
     <div class="content">
       <div class="containerone" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
-        <h1>ARSD College Library | Home</h1>
+        <h1 style="text-align: center;">ARSD College Library | Home</h1>
         <br>
         <div class="icons">
           <div class="lib-icons"><a href="about.html"><lord-icon src="https://cdn.lordicon.com/cqmhvubj.json"
@@ -160,14 +176,46 @@
         </div>
       </div>
   </main>
-  <br><br>
+  <br>
   <div class="text-content">
-    <div class="containertwo" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
-      <h1>News and Updates</h1>
+    <div class="news" style="background-color: rgb(102, 30, 30);">
+      <h1 style="font-size: 30px; text-align: center;"><b>News</b></h1>
       <br>
-      1. News one <br>
-      2. News two <br>
-      3. News three <br>
+      <hr>
+      <marquee scrollamount="3" direction="up">
+        <a href="https://www.arsdcollege.ac.in/" target="_blank">
+          <p>1. ARSD Website</p>
+        </a><br>
+        <a href="https://arsdcollegelibrary.webs.com/requisition_form.PDF" target="_blank">
+          <p>2. Book requisition form </p>
+        </a> <br>
+        <a href="https://arsdcollegelibrary.webs.com/N-LIST.pdf" target="_blank">
+          <p>3. N-LIST Membership Notice </p>
+        </a> <br>
+        <a href="https://arsdcollegelibrary.webs.com/Delnet%20Notice.pdf" target="_blank">
+          <p>4. DELNET Notice</p>
+        </a> <br>
+      </marquee>
+    </div>
+    <br><br>
+    <div class="updates" style="background-color: rgb(102, 30, 30);">
+      <h1 style="font-size: 30px; text-align: center;"><b>Updates</b></h1>
+      <br>
+      <hr>
+      <marquee scrollamount="3" direction="up"> <a
+          href="https://arsdcollegelibrary.webs.com/ARSD%20COLLEGE%20LIBRARY%20BROUCHER%201.pdf" target="_blank">
+          <p>1. Download Library Broucher</p>
+        </a><br>
+        <a href="https://arsdcollegelibrary.webs.com/List%20of%20Journals%20and%20Magazines.pdf" target="_blank">
+          <p>2. Subscribed Journals and Magazines </p>
+        </a> <br>
+        <a href="https://arsdcollegelibrary.webs.com/N-LIST.pdf" target="_blank">
+          <p>3. Annual Report Library 2020-21 </p>
+        </a> <br>
+        <a href="https://arsdcollegelibrary.webs.com/Book%20reservation%20notice.pdf" target="_blank">
+          <p>4. Book Reservation Notice</p>
+        </a> <br>
+      </marquee>
     </div>
   </div>
   <!--Footer-->
@@ -179,7 +227,7 @@
         <a href="https://www.arsdcollege.ac.in"
           class="flex title-font font-medium items-center md:rjustify-start justify-center text-gray-900"
           target="_blank">
-          <img src="static/Logo.png" alt="Logo">
+          <img src="static/Logo.png" id="foot-logo" alt="Logo">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl" style="font-size:25px;color:antiquewhite ">Atma Ram Sanatan Dharma College</span>
@@ -244,17 +292,19 @@
           <h2 class="title-font font-medium text-gray-900 text-xl mb-3" style="color:antiquewhite">Find Us</h2>
           <nav class="list-none mb-10">
             <li>
-            <a href="https://goo.gl/maps/BcSdETpeZhmNYifU7"><lord-icon src="https://cdn.lordicon.com/fihkmkwt.json" trigger="hover"
-              colors="primary:#000000,secondary:#c71f16" id="find-us" style="width:150px;height:150px"></lord-icon></a>
-          </li>
-            </nav>
+              <a href="https://goo.gl/maps/BcSdETpeZhmNYifU7"><lord-icon src="https://cdn.lordicon.com/fihkmkwt.json"
+                  trigger="hover" colors="primary:#000000,secondary:#c71f16" id="find-us"
+                  style="width:150px;height:150px"></lord-icon></a>
+            </li>
+          </nav>
         </div>
       </div>
     </div>
     <div class="bg-gray-100">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p class="text-gray-500 text-sm text-center sm:text-left">
-          <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Copyright © 2023 by ARSD College All Rights Reserved</a>
+          <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Copyright © 2023 by ARSD College All
+            Rights Reserved | Developed by Parth Raheja and Aman Kumar</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a class="text-gray-500" href="https://www.facebook.com/ARSDCOLLEGE.DU/" target="_blank">
